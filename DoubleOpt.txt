@@ -1,0 +1,14 @@
+class DoubleOpt{
+public static void main(String[]args){
+Double i1=Double.parseDouble(args[0]);
+Double i2=Double.parseDouble(args[1]);
+Double i3=Double.parseDouble(args[2]);
+Double sum1=(i1+i2*i3);
+Double sum2=(i1*i2+i3);
+Double sum3=(i1%i2+i3);
+System.out.println("result of" +i1+"+"+i2+"*"+i3"="+sum1);
+System.out.println("result of" +i1+"*"+i2+"+"+i3"="+sum2);
+System.out.println("result of" +i1+"%"+i2+"+"+i3"="+sum3);
+}
+}
+
